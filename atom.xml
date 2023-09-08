@@ -65,30 +65,4 @@
     
   </entry>
   
-  <entry>
-    <title>如何在hexO博客写作</title>
-    <link href="http://example.com/post/111bf6e.html"/>
-    <id>http://example.com/post/111bf6e.html</id>
-    <published>2023-09-01T12:20:38.000Z</published>
-    <updated>2023-09-01T13:55:51.915Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;微信公众号排版工具。问题或建议，请公众号留言。**&lt;a href=&quot;#jump_8&quot;&gt;程序员翻身&lt;/a&gt;**&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;建议使用 &lt;strong&gt;Chrome&lt;/strong&gt; 浏览器，体验最佳效果。&lt;/p&gt;
-&lt;p&gt;</summary>
-      
-    
-    
-    
-    <category term="-吹水" scheme="http://example.com/categories/%E5%90%B9%E6%B0%B4/"/>
-    
-    
-    <category term="-博客 -每日闲谈" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2-%E6%AF%8F%E6%97%A5%E9%97%B2%E8%B0%88/"/>
-    
-  </entry>
-  
 </feed>
