@@ -54,12 +54,101 @@
 <li>还在想</li>
 </ul>
 <h1 id="恋爱"><a href="#恋爱" class="headerlink" title="恋爱"></a>恋爱</h1><blockquote>
-<p>爷毕竟也是有过女朋友的人</p>
+<p>难难难</p>
 </blockquote>
 <ul>
 <li>自己都照顾不好，还想谈恋爱？</li>
 </ul>
 <p>#还在想</p>
+]]></content>
+      <categories>
+        <category>-未来规划</category>
+      </categories>
+      <tags>
+        <tag>-博客 -每日闲谈</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Typora</title>
+    <url>/post/dd170fc7.html</url>
+    <content><![CDATA[<blockquote>
+<p>今天的进步之处</p>
+</blockquote>
+<ol>
+<li>七点半起床</li>
+<li>把下午的物联网与安全选修课退课了</li>
+<li>改进next主题</li>
+</ol>
+<blockquote>
+<p>待继续解决的问题</p>
+</blockquote>
+<ul>
+<li>博客评论系统</li>
+<li>机器学习</li>
+<li>早点起床</li>
+</ul>
+<p><strong>这个是粗体</strong></p>
+<p><em>这个是斜体</em></p>
+<p><em><strong>这个是粗体加斜体</strong></em></p>
+<h3 id="2-10-表格"><a href="#2-10-表格" class="headerlink" title="2.10 表格"></a>2.10 表格</h3><p>可以使用冒号来定义表格的对齐方式，如下：</p>
+<table>
+<thead>
+<tr>
+<th align="left">姓名</th>
+<th align="center">年龄</th>
+<th align="right">工作</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">小可爱</td>
+<td align="center">18</td>
+<td align="right">吃可爱多</td>
+</tr>
+<tr>
+<td align="left">小小勇敢</td>
+<td align="center">20</td>
+<td align="right">爬棵勇敢树</td>
+</tr>
+<tr>
+<td align="left">小小小机智</td>
+<td align="center">22</td>
+<td align="right">看一本机智书</td>
+</tr>
+</tbody></table>
+<h2 id="3-特殊语法"><a href="#3-特殊语法" class="headerlink" title="3. 特殊语法"></a>3. 特殊语法</h2><h3 id="3-1-脚注"><a href="#3-1-脚注" class="headerlink" title="3.1 脚注"></a>3.1 脚注</h3><blockquote>
+<p>支持平台：微信公众号、知乎。</p>
+</blockquote>
+<p>脚注与链接的区别如下所示：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">链接：[<span class="string">文字</span>](<span class="link">链接</span>)</span><br><span class="line">脚注：[<span class="string">文字</span>](<span class="link">脚注解释 &quot;脚注名字&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<p>有人认为在<a href="https://en.wikipedia.org/wiki/Front-end_web_development" title="Front-end web development">大前端时代</a>的背景下，移动端开发（Android、IOS）将逐步退出历史舞台。</p>
+<p><a href="%E6%98%AF%E6%8C%87%E6%8E%8C%E6%8F%A1%E5%A4%9A%E7%A7%8D%E6%8A%80%E8%83%BD%EF%BC%8C%E5%B9%B6%E8%83%BD%E5%88%A9%E7%94%A8%E5%A4%9A%E7%A7%8D%E6%8A%80%E8%83%BD%E7%8B%AC%E7%AB%8B%E5%AE%8C%E6%88%90%E4%BA%A7%E5%93%81%E7%9A%84%E4%BA%BA%E3%80%82" title="什么是全栈工程师">全栈工程师</a>在业务开发流程中起到了至关重要的作用。</p>
+<p>脚注内容请拉到最下面观看。</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// FileName: HelloWorld.java</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">HelloWorld</span> &#123;</span><br><span class="line">  <span class="comment">// Java 入口程序，程序从此入口</span></span><br><span class="line">  <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">    System.out.println(<span class="string">&quot;Hello,World!&quot;</span>); <span class="comment">// 向控制台打印一条语句</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>支持以下语言种类：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash</span><br><span class="line">clojure，cpp，cs，css</span><br><span class="line">dart，dockerfile, diff</span><br><span class="line">erlang</span><br><span class="line">go，gradle，groovy</span><br><span class="line">haskell</span><br><span class="line">java，javascript，json，julia</span><br><span class="line">kotlin</span><br><span class="line">lisp，lua</span><br><span class="line">makefile，markdown，matlab</span><br><span class="line">objectivec</span><br><span class="line">perl，php，python</span><br><span class="line">r，ruby，rust</span><br><span class="line">scala，shell，sql，swift</span><br><span class="line">tex，typescript</span><br><span class="line">verilog，vhdl</span><br><span class="line">xml</span><br><span class="line">yaml</span><br></pre></td></tr></table></figure>
+
+<p>如果想要更换代码高亮样式，可在上方<strong>代码主题</strong>中挑选。</p>
+<p>其中<strong>微信代码主题与微信官方一致</strong>，有以下注意事项：</p>
+<ul>
+<li>带行号且不换行，代码大小与官方一致</li>
+<li>需要在代码块处标志语言，否则无法高亮</li>
+<li>粘贴到公众号后，用鼠标点代码块内外一次，完成高亮</li>
+</ul>
+<p>diff 不能同时和其他语言的高亮同时显示，且需要调整代码主题为微信代码主题以外的代码主题才能看到 diff 效果，使用效果如下:</p>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="addition">+ 新增项</span></span><br><span class="line"><span class="deletion">- 删除项</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>其他主题不带行号，可自定义是否换行，代码大小与当前编辑器一致</strong></p>
+<h3 id="3-3-数学公式"><a href="#3-3-数学公式" class="headerlink" title="3.3 数学公式"></a>3.3 数学公式</h3><blockquote>
+<p>支持平台：微信公众号、知乎。</p>
+</blockquote>
+<p>行内公式使用方法，比如这个化学公式：$\ce{Hg^2+ -&gt;[I-] HgI2 -&gt;[I-] [Hg^{II}I4]^2-}$</p>
+<p>块公式使用方法如下：</p>
+<p>$$H(D_2) &#x3D; -\left(\frac{2}{4}\log_2 \frac{2}{4}\right) &#x3D; 1$$</p>
+<p>$\left((\frac{2}{9})\right)$</p>
+<p>矩阵：</p>
+<p>$$<br>  \begin{pmatrix}<br>  1 &amp; a_1 &amp; a_1^2 &amp; \cdots &amp; a_1^n \<br>  1 &amp; a_2 &amp; a_2^2 &amp; \cdots &amp; a_2^n \<br>  \vdots &amp; \vdots &amp; \vdots &amp; \ddots &amp; \vdots \<br>  1 &amp; a_m &amp; a_m^2 &amp; \cdots &amp; a_m^n \<br>  \end{pmatrix}<br>$$</p>
 ]]></content>
       <categories>
         <category>-未来规划</category>
