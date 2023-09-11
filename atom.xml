@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-09-08T15:26:45.321Z</updated>
+  <updated>2023-09-11T16:14:02.189Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>20230907</title>
+    <title>20230912</title>
+    <link href="http://example.com/post/70813a47.html"/>
+    <id>http://example.com/post/70813a47.html</id>
+    <published>2023-09-11T16:00:48.000Z</published>
+    <updated>2023-09-11T16:14:02.189Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;真香&quot;&gt;&lt;a href=&quot;#真香&quot; class=&quot;headerlink&quot; title=&quot;真香&quot;&gt;&lt;/a&gt;真香&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;这几天又开始疯狂打游戏，刷视频，睡大觉，熬大夜了&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;开始</summary>
+      
+    
+    
+    
+    
+    <category term="-博客 -每日闲谈" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2-%E6%AF%8F%E6%97%A5%E9%97%B2%E8%B0%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>大三上学期规划</title>
     <link href="http://example.com/post/19f0ff89.html"/>
     <id>http://example.com/post/19f0ff89.html</id>
     <published>2023-09-07T14:14:20.000Z</published>
-    <updated>2023-09-08T15:26:45.321Z</updated>
+    <updated>2023-09-11T16:14:45.787Z</updated>
     
     
       
