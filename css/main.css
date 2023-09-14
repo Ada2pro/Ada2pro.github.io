@@ -2449,7 +2449,7 @@ header.header {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #fffff4;
+  background: #a1f50f;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2492,4 +2492,8 @@ header.header {
   .sidebar-dimmer {
     display: none;
   }
+}
+.giscus {
+  max-width: unset;
+  box-sizing: border-box;
 }
