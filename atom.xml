@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-09-21T15:21:00.895Z</updated>
+  <updated>2023-09-25T11:33:20.755Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,55 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2023_09_25_target</title>
+    <link href="http://example.com/post/a89e2061.html"/>
+    <id>http://example.com/post/a89e2061.html</id>
+    <published>2023-09-25T11:24:49.000Z</published>
+    <updated>2023-09-25T11:33:20.755Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;今日任务&quot;&gt;&lt;a href=&quot;#今日任务&quot; class=&quot;headerlink&quot; title=&quot;今日任务&quot;&gt;&lt;/a&gt;今日任务&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;这是第一天尝试给自己安排每日任务，加油，特种兵&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=</summary>
+      
+    
+    
+    
+    
+    <category term="target" scheme="http://example.com/tags/target/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20230925-认知塑造</title>
+    <link href="http://example.com/post/444119fe.html"/>
+    <id>http://example.com/post/444119fe.html</id>
+    <published>2023-09-25T11:02:59.000Z</published>
+    <updated>2023-09-25T11:24:10.277Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;学习&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;1.网安学出来能干什么？&lt;/p&gt;
+&lt;p&gt;答：起码应该比辍学带来的好处多一些。&lt;/p&gt;
+&lt;p&gt;2.上课学到的东西多吗？实用性高吗？要每节课都去吗？&lt;/p&gt;
+&lt;p&gt;答：多少是相对的，实用性有谁说得准？如果</summary>
+      
+    
+    
+    
+    
+    <category term="Thinker" scheme="http://example.com/tags/Thinker/"/>
+    
+  </entry>
   
   <entry>
     <title>三秋-第二周作业</title>
@@ -139,6 +188,30 @@
     <link href="http://example.com/post/dd170fc7.html"/>
     <id>http://example.com/post/dd170fc7.html</id>
     <published>2023-09-01T12:41:28.000Z</published>
+    <updated>2023-09-07T14:12:47.466Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;微信公众号排版工具。问题或建议，请公众号留言。**&lt;a href=&quot;#jump_8&quot;&gt;程序员翻身&lt;/a&gt;**&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;建议使用 &lt;strong&gt;Chrome&lt;/strong&gt; 浏览器，体验最佳效果。&lt;/p&gt;
+&lt;p&gt;</summary>
+      
+    
+    
+    
+    <category term="-科普" scheme="http://example.com/categories/%E7%A7%91%E6%99%AE/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Typora</title>
+    <link href="http://example.com/post/dd170fc7.html"/>
+    <id>http://example.com/post/dd170fc7.html</id>
+    <published>2023-09-01T12:41:28.000Z</published>
     <updated>2023-09-08T15:49:45.964Z</updated>
     
     
@@ -162,30 +235,6 @@
     
     
     <category term="-博客 -每日闲谈" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2-%E6%AF%8F%E6%97%A5%E9%97%B2%E8%B0%88/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Typora</title>
-    <link href="http://example.com/post/dd170fc7.html"/>
-    <id>http://example.com/post/dd170fc7.html</id>
-    <published>2023-09-01T12:41:28.000Z</published>
-    <updated>2023-09-07T14:12:47.466Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;微信公众号排版工具。问题或建议，请公众号留言。**&lt;a href=&quot;#jump_8&quot;&gt;程序员翻身&lt;/a&gt;**&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;建议使用 &lt;strong&gt;Chrome&lt;/strong&gt; 浏览器，体验最佳效果。&lt;/p&gt;
-&lt;p&gt;</summary>
-      
-    
-    
-    
-    <category term="-科普" scheme="http://example.com/categories/%E7%A7%91%E6%99%AE/"/>
-    
     
   </entry>
   
