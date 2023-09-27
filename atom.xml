@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-09-27T05:52:33.939Z</updated>
+  <updated>2023-09-27T09:30:37.482Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/post/2bc69d0b.html"/>
     <id>http://example.com/post/2bc69d0b.html</id>
     <published>2023-09-27T05:51:39.000Z</published>
-    <updated>2023-09-27T05:52:33.939Z</updated>
+    <updated>2023-09-27T09:30:37.482Z</updated>
     
     
       
@@ -29,7 +29,7 @@
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;任务&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;1.完成数电作业（√）&lt;br&gt;2.看看操作系统的实验（）&lt;br&gt;3.有空的话做做数据库作业（）&lt;/p&gt;
+&lt;p&gt;1.完成数电作业（√）&lt;br&gt;2.看看操作系统的实验（）&lt;br&gt;3.完成数据库作业（）&lt;/p&gt;
 </summary>
       
     
