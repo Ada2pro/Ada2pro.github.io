@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-09-27T09:30:37.482Z</updated>
+  <updated>2023-09-27T12:10:30.630Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,60 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>20230927</title>
+    <title>资源库</title>
+    <link href="http://example.com/post/7a87be76.html"/>
+    <id>http://example.com/post/7a87be76.html</id>
+    <published>2023-09-27T12:09:46.000Z</published>
+    <updated>2023-09-27T12:10:30.630Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;用来放一些资源&lt;/p&gt;
+&lt;/blockquote&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="资源" scheme="http://example.com/tags/%E8%B5%84%E6%BA%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>三秋—第四周作业</title>
+    <link href="http://example.com/post/38c0d0c9.html"/>
+    <id>http://example.com/post/38c0d0c9.html</id>
+    <published>2023-09-27T12:06:05.000Z</published>
+    <updated>2023-09-27T12:09:01.014Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;OS  （homework3）()&lt;/li&gt;
+&lt;li&gt;OS lab1   ()&lt;/li&gt;
+&lt;li&gt;数据库基础 (第一章作业)()&lt;/li&gt;
+&lt;li&gt;数理逻辑与图论（作业）(无)&lt;/li&gt;
+&lt;li&gt;算法分析与设计（第三次作业）()&lt;/li&gt;
+&lt;li&gt;编译原理（作业</summary>
+      
+    
+    
+    
+    
+    <category term="作业完成情况" scheme="http://example.com/tags/%E4%BD%9C%E4%B8%9A%E5%AE%8C%E6%88%90%E6%83%85%E5%86%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20230927-target</title>
     <link href="http://example.com/post/2bc69d0b.html"/>
     <id>http://example.com/post/2bc69d0b.html</id>
     <published>2023-09-27T05:51:39.000Z</published>
-    <updated>2023-09-27T09:30:37.482Z</updated>
+    <updated>2023-09-27T12:07:11.123Z</updated>
     
     
       
@@ -65,18 +114,19 @@
   </entry>
   
   <entry>
-    <title>三秋——第三周作业</title>
+    <title>三秋-第三周作业</title>
     <link href="http://example.com/post/e67da7ca.html"/>
     <id>http://example.com/post/e67da7ca.html</id>
     <published>2023-09-25T11:37:28.000Z</published>
-    <updated>2023-09-25T11:40:57.482Z</updated>
+    <updated>2023-09-27T12:07:36.388Z</updated>
     
     
       
       
     <summary type="html">&lt;h3 id=&quot;本周课程作业&quot;&gt;&lt;a href=&quot;#本周课程作业&quot; class=&quot;headerlink&quot; title=&quot;本周课程作业&quot;&gt;&lt;/a&gt;本周课程作业&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;OS  （homework1 homework2）()&lt;/li&gt;
-&lt;li&gt;数据库基础 (第一章作</summary>
+&lt;li&gt;OS  （homework3）()&lt;/li&gt;
+&lt;li&gt;OS lab1   ()&lt;/li&gt;
+&lt;li</summary>
       
     
     
