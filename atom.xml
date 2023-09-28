@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-09-27T12:10:30.630Z</updated>
+  <updated>2023-09-28T15:39:10.677Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>国庆作业</title>
+    <link href="http://example.com/post/f6b5f8b6.html"/>
+    <id>http://example.com/post/f6b5f8b6.html</id>
+    <published>2023-09-28T15:33:33.000Z</published>
+    <updated>2023-09-28T15:39:10.677Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;国庆作业&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;OS lab1   ()&lt;/li&gt;
+&lt;li&gt;数理逻辑与图论（第四周作业）() &lt;/li&gt;
+&lt;li&gt;算法分析与设计（第三次作业OJ）() 10.6&lt;/li&gt;
+&lt;li&gt;编译原理（第三次作业</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>资源库</title>
     <link href="http://example.com/post/7a87be76.html"/>
     <id>http://example.com/post/7a87be76.html</id>
     <published>2023-09-27T12:09:46.000Z</published>
-    <updated>2023-09-27T12:10:30.630Z</updated>
+    <updated>2023-09-27T12:11:02.367Z</updated>
     
     
       
@@ -44,7 +69,7 @@
     <link href="http://example.com/post/38c0d0c9.html"/>
     <id>http://example.com/post/38c0d0c9.html</id>
     <published>2023-09-27T12:06:05.000Z</published>
-    <updated>2023-09-27T12:09:01.014Z</updated>
+    <updated>2023-09-27T12:11:02.365Z</updated>
     
     
       
@@ -308,6 +333,30 @@
     <link href="http://example.com/post/dd170fc7.html"/>
     <id>http://example.com/post/dd170fc7.html</id>
     <published>2023-09-01T12:41:28.000Z</published>
+    <updated>2023-09-07T14:12:47.466Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;微信公众号排版工具。问题或建议，请公众号留言。**&lt;a href=&quot;#jump_8&quot;&gt;程序员翻身&lt;/a&gt;**&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;建议使用 &lt;strong&gt;Chrome&lt;/strong&gt; 浏览器，体验最佳效果。&lt;/p&gt;
+&lt;p&gt;</summary>
+      
+    
+    
+    
+    <category term="-科普" scheme="http://example.com/categories/%E7%A7%91%E6%99%AE/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Typora</title>
+    <link href="http://example.com/post/dd170fc7.html"/>
+    <id>http://example.com/post/dd170fc7.html</id>
+    <published>2023-09-01T12:41:28.000Z</published>
     <updated>2023-09-08T15:49:45.964Z</updated>
     
     
@@ -331,30 +380,6 @@
     
     
     <category term="-博客 -每日闲谈" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2-%E6%AF%8F%E6%97%A5%E9%97%B2%E8%B0%88/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Typora</title>
-    <link href="http://example.com/post/dd170fc7.html"/>
-    <id>http://example.com/post/dd170fc7.html</id>
-    <published>2023-09-01T12:41:28.000Z</published>
-    <updated>2023-09-07T14:12:47.466Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;微信公众号排版工具。问题或建议，请公众号留言。**&lt;a href=&quot;#jump_8&quot;&gt;程序员翻身&lt;/a&gt;**&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;建议使用 &lt;strong&gt;Chrome&lt;/strong&gt; 浏览器，体验最佳效果。&lt;/p&gt;
-&lt;p&gt;</summary>
-      
-    
-    
-    
-    <category term="-科普" scheme="http://example.com/categories/%E7%A7%91%E6%99%AE/"/>
-    
     
   </entry>
   
