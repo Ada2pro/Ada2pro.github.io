@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-10-11T08:22:31.283Z</updated>
+  <updated>2023-10-16T01:49:38.073Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20231016</title>
+    <link href="http://example.com/post/c081a2b4.html"/>
+    <id>http://example.com/post/c081a2b4.html</id>
+    <published>2023-10-16T01:46:53.000Z</published>
+    <updated>2023-10-16T01:49:38.073Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;形势与政策&lt;/li&gt;
+&lt;li&gt;OS学习&lt;/li&gt;
+&lt;li&gt;编译原理实验&lt;/li&gt;
+&lt;li&gt;数据库实验&lt;/li&gt;
+&lt;li&gt;计网实验&lt;/li&gt;
+&lt;li&gt;OJ第一题&lt;/li&gt;
+&lt;/ul&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>三秋—第六周作业</title>
