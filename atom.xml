@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-10-19T02:30:39.238Z</updated>
+  <updated>2023-10-19T09:19:40.973Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,15 +21,19 @@
     <link href="http://example.com/post/26547b01.html"/>
     <id>http://example.com/post/26547b01.html</id>
     <published>2023-10-19T02:28:35.000Z</published>
-    <updated>2023-10-19T02:30:39.238Z</updated>
+    <updated>2023-10-19T09:19:40.973Z</updated>
     
     
       
       
     <summary type="html">&lt;ul&gt;
-&lt;li&gt;看看AVL树的旋转&lt;/li&gt;
-&lt;li&gt;OS作业&lt;/li&gt;
-&lt;li&gt;补补计网&lt;/li&gt;
+&lt;li&gt;看看AVL树的旋转(√)&lt;/li&gt;
+&lt;li&gt;OS作业&lt;blockquote&gt;
+&lt;p&gt;补补计网&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;看半小时ppt&lt;/li&gt;
+&lt;li&gt;看一个半小时B站计网(从头开始)&lt;/li&gt;
 &lt;/ul&gt;
 </summary>
       
