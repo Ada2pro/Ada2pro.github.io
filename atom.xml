@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-10-16T01:49:38.073Z</updated>
+  <updated>2023-10-19T02:30:39.238Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>2023_10_19_target</title>
+    <link href="http://example.com/post/26547b01.html"/>
+    <id>http://example.com/post/26547b01.html</id>
+    <published>2023-10-19T02:28:35.000Z</published>
+    <updated>2023-10-19T02:30:39.238Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;看看AVL树的旋转&lt;/li&gt;
+&lt;li&gt;OS作业&lt;/li&gt;
+&lt;li&gt;补补计网&lt;/li&gt;
+&lt;/ul&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>20231016</title>
     <link href="http://example.com/post/c081a2b4.html"/>
     <id>http://example.com/post/c081a2b4.html</id>
     <published>2023-10-16T01:46:53.000Z</published>
-    <updated>2023-10-16T01:49:38.073Z</updated>
+    <updated>2023-10-16T01:50:18.944Z</updated>
     
     
       
