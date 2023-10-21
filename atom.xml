@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-10-19T09:19:40.973Z</updated>
+  <updated>2023-10-21T10:59:26.544Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,23 +17,44 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>2023_10_21_target</title>
+    <link href="http://example.com/post/cc3c5c71.html"/>
+    <id>http://example.com/post/cc3c5c71.html</id>
+    <published>2023-10-21T10:58:53.000Z</published>
+    <updated>2023-10-21T10:59:26.544Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;OS实验&lt;blockquote&gt;
+&lt;p&gt;补补计网&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;看半小时ppt&lt;/li&gt;
+&lt;li&gt;看一个半小时B站计网(从头开始)&lt;/li&gt;
+&lt;/ul&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>2023_10_19_target</title>
     <link href="http://example.com/post/26547b01.html"/>
     <id>http://example.com/post/26547b01.html</id>
     <published>2023-10-19T02:28:35.000Z</published>
-    <updated>2023-10-19T09:19:40.973Z</updated>
+    <updated>2023-10-21T10:59:12.305Z</updated>
     
     
       
       
     <summary type="html">&lt;ul&gt;
 &lt;li&gt;看看AVL树的旋转(√)&lt;/li&gt;
-&lt;li&gt;OS作业&lt;blockquote&gt;
-&lt;p&gt;补补计网&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;看半小时ppt&lt;/li&gt;
-&lt;li&gt;看一个半小时B站计网(从头开始)&lt;/li&gt;
+&lt;li&gt;OS作业(√)&lt;/li&gt;
 &lt;/ul&gt;
 </summary>
       
@@ -482,30 +503,6 @@
     
     
     <category term="-博客 -每日闲谈" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2-%E6%AF%8F%E6%97%A5%E9%97%B2%E8%B0%88/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Typora</title>
-    <link href="http://example.com/post/dd170fc7.html"/>
-    <id>http://example.com/post/dd170fc7.html</id>
-    <published>2023-09-01T12:41:28.000Z</published>
-    <updated>2023-10-11T08:27:08.320Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;微信公众号排版工具。问题或建议，请公众号留言。**&lt;a href=&quot;#jump_8&quot;&gt;程序员翻身&lt;/a&gt;**&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;建议使用 &lt;strong&gt;Chrome&lt;/strong&gt; 浏览器，体验最佳效果。&lt;/p&gt;
-&lt;p&gt;</summary>
-      
-    
-    
-    
-    
-    <category term="杂货" scheme="http://example.com/tags/%E6%9D%82%E8%B4%A7/"/>
     
   </entry>
   
