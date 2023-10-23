@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-10-21T10:59:26.544Z</updated>
+  <updated>2023-10-23T06:42:54.870Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>2023_10_23_target</title>
+    <link href="http://example.com/post/8e195b0c.html"/>
+    <id>http://example.com/post/8e195b0c.html</id>
+    <published>2023-10-23T06:41:12.000Z</published>
+    <updated>2023-10-23T06:42:54.870Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;code&gt;今天就两个任务&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;1.抄完数图&lt;/p&gt;
+&lt;p&gt;2.看OS网课&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="day-target" scheme="http://example.com/tags/day-target/"/>
+    
+  </entry>
+  
+  <entry>
     <title>2023_10_21_target</title>
     <link href="http://example.com/post/cc3c5c71.html"/>
     <id>http://example.com/post/cc3c5c71.html</id>
     <published>2023-10-21T10:58:53.000Z</published>
-    <updated>2023-10-21T10:59:26.544Z</updated>
+    <updated>2023-10-21T10:59:53.360Z</updated>
     
     
       
@@ -472,37 +495,6 @@
     
     
     <category term="future-target" scheme="http://example.com/tags/future-target/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Typora</title>
-    <link href="http://example.com/post/dd170fc7.html"/>
-    <id>http://example.com/post/dd170fc7.html</id>
-    <published>2023-09-01T12:41:28.000Z</published>
-    <updated>2023-10-11T07:58:27.714Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;今天的进步之处&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;七点半起床&lt;/li&gt;
-&lt;li&gt;把下午的物联网与安全选修课退课了&lt;/li&gt;
-&lt;li&gt;改进next主题&lt;/li&gt;
-&lt;/ol&gt;
-&lt;blockquote&gt;
-&lt;p&gt;待继续解决的问题&lt;/p&gt;</summary>
-      
-    
-    
-    
-    <category term="-未来规划" scheme="http://example.com/categories/%E6%9C%AA%E6%9D%A5%E8%A7%84%E5%88%92/"/>
-    
-    
-    <category term="-博客 -每日闲谈" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2-%E6%AF%8F%E6%97%A5%E9%97%B2%E8%B0%88/"/>
     
   </entry>
   
