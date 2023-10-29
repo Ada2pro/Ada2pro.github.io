@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-10-23T06:43:05.398Z</updated>
+  <updated>2023-10-29T17:17:40.758Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>华科王者赛</title>
+    <link href="http://example.com/post/16d523ce.html"/>
+    <id>http://example.com/post/16d523ce.html</id>
+    <published>2023-10-29T15:45:47.000Z</published>
+    <updated>2023-10-29T17:17:40.758Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;10月27号-10月31号&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;听闻沛公要在这周六打王者菁英杯比赛，恰巧学校里面开校运会放假，于是直接就定了高铁前来观战。&lt;/p&gt;
+&lt;h1 id=&quot;10月27号&quot;&gt;&lt;a href=&quot;#10月27号&quot; class</summary>
+      
+    
+    
+    
+    
+    <category term="life" scheme="http://example.com/tags/life/"/>
+    
+  </entry>
   
   <entry>
     <title>2023_10_23_target</title>
@@ -472,29 +496,6 @@
     
     
     <category term="-博客 -每日闲谈" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2-%E6%AF%8F%E6%97%A5%E9%97%B2%E8%B0%88/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>大三上学期规划</title>
-    <link href="http://example.com/post/19f0ff89.html"/>
-    <id>http://example.com/post/19f0ff89.html</id>
-    <published>2023-09-07T14:14:20.000Z</published>
-    <updated>2023-10-11T08:03:36.562Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;不知不觉就到大三开学了，作为网络安全专业的一名白菜，因该给自己制定一些规划，让每一天过的充实起来，有意义起来，每一天都多学一点东西。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1 id=&quot;CET-6&quot;&gt;&lt;a href=&quot;#CET-6&quot; class=&quot;</summary>
-      
-    
-    
-    
-    
-    <category term="future-target" scheme="http://example.com/tags/future-target/"/>
     
   </entry>
   
