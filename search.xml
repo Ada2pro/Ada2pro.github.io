@@ -36,33 +36,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Typora</title>
-    <url>/post/dd170fc7.html</url>
-    <content><![CDATA[<blockquote>
-<p>今天的进步之处</p>
-</blockquote>
-<ol>
-<li>七点半起床</li>
-<li>把下午的物联网与安全选修课退课了</li>
-<li>改进next主题</li>
-</ol>
-<blockquote>
-<p>待继续解决的问题</p>
-</blockquote>
-<ul>
-<li>博客评论系统 (已解决)</li>
-<li>机器学习</li>
-<li>早点起床</li>
-</ul>
-]]></content>
-      <categories>
-        <category>-未来规划</category>
-      </categories>
-      <tags>
-        <tag>-博客 -每日闲谈</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>20230912</title>
     <url>/post/70813a47.html</url>
     <content><![CDATA[<h1 id="真香"><a href="#真香" class="headerlink" title="真香"></a>真香</h1><blockquote>
@@ -108,6 +81,33 @@
 <p>待会再去试试（有空的话）</p>
 </blockquote>
 ]]></content>
+      <tags>
+        <tag>-博客 -每日闲谈</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Typora</title>
+    <url>/post/dd170fc7.html</url>
+    <content><![CDATA[<blockquote>
+<p>今天的进步之处</p>
+</blockquote>
+<ol>
+<li>七点半起床</li>
+<li>把下午的物联网与安全选修课退课了</li>
+<li>改进next主题</li>
+</ol>
+<blockquote>
+<p>待继续解决的问题</p>
+</blockquote>
+<ul>
+<li>博客评论系统 (已解决)</li>
+<li>机器学习</li>
+<li>早点起床</li>
+</ul>
+]]></content>
+      <categories>
+        <category>-未来规划</category>
+      </categories>
       <tags>
         <tag>-博客 -每日闲谈</tag>
       </tags>
@@ -177,24 +177,24 @@
       </tags>
   </entry>
   <entry>
-    <title>2023_09_26_target</title>
-    <url>/post/26112782.html</url>
-    <content><![CDATA[<blockquote>
-<p>任务</p>
-</blockquote>
-<p>1.完成数电作业（√）<br>2.看看操作系统的实验（）<br>3.有空的话做做数据库作业（）</p>
-]]></content>
-      <tags>
-        <tag>day-target</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>20230927-target</title>
     <url>/post/2bc69d0b.html</url>
     <content><![CDATA[<blockquote>
 <p>任务</p>
 </blockquote>
 <p>1.完成数电作业（√）<br>2.看看操作系统的实验（）<br>3.完成数据库作业（）</p>
+]]></content>
+      <tags>
+        <tag>day-target</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2023_09_26_target</title>
+    <url>/post/26112782.html</url>
+    <content><![CDATA[<blockquote>
+<p>任务</p>
+</blockquote>
+<p>1.完成数电作业（√）<br>2.看看操作系统的实验（）<br>3.有空的话做做数据库作业（）</p>
 ]]></content>
       <tags>
         <tag>day-target</tag>
@@ -216,19 +216,6 @@
       </tags>
   </entry>
   <entry>
-    <title>20231016</title>
-    <url>/post/c081a2b4.html</url>
-    <content><![CDATA[<ul>
-<li>形势与政策</li>
-<li>OS学习</li>
-<li>编译原理实验</li>
-<li>数据库实验</li>
-<li>计网实验</li>
-<li>OJ第一题</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
     <title>20231011</title>
     <url>/post/5ee53717.html</url>
     <content><![CDATA[<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Q1：不想去教室上课怎么办？</span><br><span class="line">Q2：没有学习的欲望和动力怎么办？</span><br><span class="line">Q3: 不想活了怎么办？</span><br><span class="line">Q4：马上就要大三结束了，但是感觉自己啥也不会，但又不想学习新东西，怎么办？</span><br><span class="line">Q5：绩点排名不够高，保研本校几乎不可能，怎么办？</span><br><span class="line">下面来一一解答(随时间回答会变化)</span><br></pre></td></tr></table></figure>
@@ -239,15 +226,15 @@
       </tags>
   </entry>
   <entry>
-    <title>2023_10_21_target</title>
-    <url>/post/cc3c5c71.html</url>
+    <title>20231016</title>
+    <url>/post/c081a2b4.html</url>
     <content><![CDATA[<ul>
-<li>OS实验<blockquote>
-<p>补补计网</p>
-</blockquote>
-</li>
-<li>看半小时ppt</li>
-<li>看一个半小时B站计网(从头开始)</li>
+<li>形势与政策</li>
+<li>OS学习</li>
+<li>编译原理实验</li>
+<li>数据库实验</li>
+<li>计网实验</li>
+<li>OJ第一题</li>
 </ul>
 ]]></content>
   </entry>
@@ -270,6 +257,35 @@
       <tags>
         <tag>day-target</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>2023_10_21_target</title>
+    <url>/post/cc3c5c71.html</url>
+    <content><![CDATA[<ul>
+<li>OS实验<blockquote>
+<p>补补计网</p>
+</blockquote>
+</li>
+<li>看半小时ppt</li>
+<li>看一个半小时B站计网(从头开始)</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>20231129</title>
+    <url>/post/7ad186d1.html</url>
+    <content><![CDATA[<p>有很多事情，不要总是询问别人的意见，不要什么都参考别人的意见，要有自己的思考空间，不要被别人牵着鼻子走，因为如果每次做的决定不是自己思考后得出的，那么之后的体验将是消极的。<br>要把握住自己的未来规划，握住自己的人生。<br>人可以一时因为幼稚不成熟而盲目听信别人，但不能在意识到这样做会对自己将来不负责的情况下，继续选择麻木。</p>
+<p>就比如：<br>如果当年没有听信科大宣传老师的一顿忽悠，我应该会去自己想去的华科，<br>如果初中没有听信家长和同学的”良苦用心”，也就不会放弃自己喜欢的女朋友，<br>如果不是总是没有自己的思考能力，也不至于在高中总是像个提线木偶般违和，也不会伤害一些友情，失去机遇，<br>如果没有某某的洗脑，我也不至于成为了一个应试教育的机器，<br>如果我能有多一些冷静思考的空间的话，那我所爱着的她们，也不会被我一时冲动而分离，<br>……<br>又比如，就最近的一些事：<br>上大学后，上课就全靠老师，不想自己自学看书看网课，结果就是，老师讲的好的话，就学的好一些，不想听或者听不懂，就只剩下很低效的学习模式，以及花更少的时间在这们课上，没有学习的动力，确切的说是因为不想去思考为什么要学习。<br>不会拒绝别人，只会一贯接受与接收，不能静下心来反思过往，重复的错误一次又一次地犯着。<br>比如最近写实验报告，因为听信别人自信地说只用写一个思考题，就把其他思考题也删去 ，结果被扣分。<br>本来自己很想参加的学校赞助地免费地深信服培训，但别人又说这个东西在知乎上被喷说不好，结果我就没报了，现在很后悔，<br>……<br>也就是说，做决定的时候，自己心里的想法要先有，并有一定的思考空间，不要冲动做决定，不要总是去询问别人地意见和做法。</p>
+<p>亡羊补牢，为时未晚。</p>
+]]></content>
+      <tags>
+        <tag>rethinking</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/post/d87f7e0c.html</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>Typora</title>
@@ -402,11 +418,6 @@
       <tags>
         <tag>杂货</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>test</title>
-    <url>/post/d87f7e0c.html</url>
-    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>三秋-第三周作业</title>
@@ -582,17 +593,6 @@
       </tags>
   </entry>
   <entry>
-    <title>资源库</title>
-    <url>/post/7a87be76.html</url>
-    <content><![CDATA[<blockquote>
-<p>用来放一些资源</p>
-</blockquote>
-]]></content>
-      <tags>
-        <tag>资源</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>大三上学期规划</title>
     <url>/post/19f0ff89.html</url>
     <content><![CDATA[<blockquote>
@@ -648,6 +648,17 @@
 ]]></content>
       <tags>
         <tag>future-target</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>资源库</title>
+    <url>/post/7a87be76.html</url>
+    <content><![CDATA[<blockquote>
+<p>用来放一些资源</p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>资源</tag>
       </tags>
   </entry>
 </search>
