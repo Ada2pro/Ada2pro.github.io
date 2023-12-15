@@ -36,28 +36,24 @@
       </tags>
   </entry>
   <entry>
-    <title>Typora</title>
-    <url>/post/dd170fc7.html</url>
-    <content><![CDATA[<blockquote>
-<p>今天的进步之处</p>
-</blockquote>
-<ol>
-<li>七点半起床</li>
-<li>把下午的物联网与安全选修课退课了</li>
-<li>改进next主题</li>
-</ol>
-<blockquote>
-<p>待继续解决的问题</p>
+    <title>20230914</title>
+    <url>/post/99e29f72.html</url>
+    <content><![CDATA[<h1 id="日常"><a href="#日常" class="headerlink" title="日常"></a>日常</h1><blockquote>
+<p>打游戏，刷视频，睡大觉，熬大夜</p>
 </blockquote>
 <ul>
-<li>博客评论系统 (已解决)</li>
-<li>机器学习</li>
-<li>早点起床</li>
+<li><p>改善</p>
+<ol>
+<li>游戏怎么玩，懂得都懂</li>
+<li>不要熬夜</li>
+<li>接受自己的局限性，不勉强自己</li>
+</ol>
+</li>
 </ul>
+<h1 id="评论系统"><a href="#评论系统" class="headerlink" title="评论系统"></a>评论系统</h1><blockquote>
+<p>待会再去试试（有空的话）</p>
+</blockquote>
 ]]></content>
-      <categories>
-        <category>-未来规划</category>
-      </categories>
       <tags>
         <tag>-博客 -每日闲谈</tag>
       </tags>
@@ -90,26 +86,53 @@
       </tags>
   </entry>
   <entry>
-    <title>20230914</title>
-    <url>/post/99e29f72.html</url>
-    <content><![CDATA[<h1 id="日常"><a href="#日常" class="headerlink" title="日常"></a>日常</h1><blockquote>
-<p>打游戏，刷视频，睡大觉，熬大夜</p>
+    <title>20230925-认知塑造</title>
+    <url>/post/444119fe.html</url>
+    <content><![CDATA[<blockquote>
+<p>学习</p>
 </blockquote>
-<ul>
-<li><p>改善</p>
-<ol>
-<li>游戏怎么玩，懂得都懂</li>
-<li>不要熬夜</li>
-<li>接受自己的局限性，不勉强自己</li>
-</ol>
-</li>
+<p>1.网安学出来能干什么？</p>
+<p>答：起码应该比辍学带来的好处多一些。</p>
+<p>2.上课学到的东西多吗？实用性高吗？要每节课都去吗？</p>
+<p>答：多少是相对的，实用性有谁说得准？如果只是因为不想去而不去，却没有对应代替的打算，那为什么不去呢？既然去了，为什么不做点有意义的事呢？</p>
+<p>3.你觉得反思有用吗？</p>
+<p>答：目测没用，不到三天，全部忘光，每天全靠惯性生活着。</p>
+<p>4.有什么解决方法吗？（针对问题3）</p>
+<p>答：每天都给自己设定几个小目标，完成之后给予自己一些合理的奖励（</p>
+<p>5.想早女朋友吗？</p>
+<p>答：废话，那个男生不希望找个女朋友。但是呢，为什么要找女朋友，为什么前女友没了，心里没点数？？</p>
+<p>6.能健康作息，规律健身吗？</p>
+<p>答：不出意外的话因该可行。（不出意外的话出意外了</p>
+]]></content>
+      <tags>
+        <tag>Thinker</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2023_10_11_target</title>
+    <url>/post/f5b160b4.html</url>
+    <content><![CDATA[<ul>
+<li>数据库基础 (第三章作业)()</li>
+<li>数理逻辑与图论（部分作业）(√)</li>
 </ul>
-<h1 id="评论系统"><a href="#评论系统" class="headerlink" title="评论系统"></a>评论系统</h1><blockquote>
-<p>待会再去试试（有空的话）</p>
+<blockquote>
+<p>寻找感兴趣的领域</p>
 </blockquote>
 ]]></content>
       <tags>
-        <tag>-博客 -每日闲谈</tag>
+        <tag>day-target</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2023_09_26_target</title>
+    <url>/post/26112782.html</url>
+    <content><![CDATA[<blockquote>
+<p>任务</p>
+</blockquote>
+<p>1.完成数电作业（√）<br>2.看看操作系统的实验（）<br>3.有空的话做做数据库作业（）</p>
+]]></content>
+      <tags>
+        <tag>day-target</tag>
       </tags>
   </entry>
   <entry>
@@ -154,65 +177,30 @@
       </tags>
   </entry>
   <entry>
-    <title>2023_09_26_target</title>
-    <url>/post/26112782.html</url>
+    <title>Typora</title>
+    <url>/post/dd170fc7.html</url>
     <content><![CDATA[<blockquote>
-<p>任务</p>
+<p>今天的进步之处</p>
 </blockquote>
-<p>1.完成数电作业（√）<br>2.看看操作系统的实验（）<br>3.有空的话做做数据库作业（）</p>
-]]></content>
-      <tags>
-        <tag>day-target</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>20230927-target</title>
-    <url>/post/2bc69d0b.html</url>
-    <content><![CDATA[<blockquote>
-<p>任务</p>
-</blockquote>
-<p>1.完成数电作业（√）<br>2.看看操作系统的实验（）<br>3.完成数据库作业（）</p>
-]]></content>
-      <tags>
-        <tag>day-target</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>20230925-认知塑造</title>
-    <url>/post/444119fe.html</url>
-    <content><![CDATA[<blockquote>
-<p>学习</p>
-</blockquote>
-<p>1.网安学出来能干什么？</p>
-<p>答：起码应该比辍学带来的好处多一些。</p>
-<p>2.上课学到的东西多吗？实用性高吗？要每节课都去吗？</p>
-<p>答：多少是相对的，实用性有谁说得准？如果只是因为不想去而不去，却没有对应代替的打算，那为什么不去呢？既然去了，为什么不做点有意义的事呢？</p>
-<p>3.你觉得反思有用吗？</p>
-<p>答：目测没用，不到三天，全部忘光，每天全靠惯性生活着。</p>
-<p>4.有什么解决方法吗？（针对问题3）</p>
-<p>答：每天都给自己设定几个小目标，完成之后给予自己一些合理的奖励（</p>
-<p>5.想早女朋友吗？</p>
-<p>答：废话，那个男生不希望找个女朋友。但是呢，为什么要找女朋友，为什么前女友没了，心里没点数？？</p>
-<p>6.能健康作息，规律健身吗？</p>
-<p>答：不出意外的话因该可行。（不出意外的话出意外了</p>
-]]></content>
-      <tags>
-        <tag>Thinker</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2023_10_11_target</title>
-    <url>/post/f5b160b4.html</url>
-    <content><![CDATA[<ul>
-<li>数据库基础 (第三章作业)()</li>
-<li>数理逻辑与图论（部分作业）(√)</li>
-</ul>
+<ol>
+<li>七点半起床</li>
+<li>把下午的物联网与安全选修课退课了</li>
+<li>改进next主题</li>
+</ol>
 <blockquote>
-<p>寻找感兴趣的领域</p>
+<p>待继续解决的问题</p>
 </blockquote>
+<ul>
+<li>博客评论系统 (已解决)</li>
+<li>机器学习</li>
+<li>早点起床</li>
+</ul>
 ]]></content>
+      <categories>
+        <category>-未来规划</category>
+      </categories>
       <tags>
-        <tag>day-target</tag>
+        <tag>-博客 -每日闲谈</tag>
       </tags>
   </entry>
   <entry>
@@ -223,26 +211,6 @@
 ]]></content>
       <tags>
         <tag>Thinker</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2023_10_19_target</title>
-    <url>/post/26547b01.html</url>
-    <content><![CDATA[<ul>
-<li>看看AVL树的旋转(√)</li>
-<li>OS作业(√)</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>2023_10_23_target</title>
-    <url>/post/8e195b0c.html</url>
-    <content><![CDATA[<p><code>今天就两个任务</code></p>
-<p>1.抄完数图</p>
-<p>2.看OS网课</p>
-]]></content>
-      <tags>
-        <tag>day-target</tag>
       </tags>
   </entry>
   <entry>
@@ -259,6 +227,15 @@
 ]]></content>
   </entry>
   <entry>
+    <title>2023_10_19_target</title>
+    <url>/post/26547b01.html</url>
+    <content><![CDATA[<ul>
+<li>看看AVL树的旋转(√)</li>
+<li>OS作业(√)</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
     <title>2023_10_21_target</title>
     <url>/post/cc3c5c71.html</url>
     <content><![CDATA[<ul>
@@ -270,6 +247,17 @@
 <li>看一个半小时B站计网(从头开始)</li>
 </ul>
 ]]></content>
+  </entry>
+  <entry>
+    <title>2023_10_23_target</title>
+    <url>/post/8e195b0c.html</url>
+    <content><![CDATA[<p><code>今天就两个任务</code></p>
+<p>1.抄完数图</p>
+<p>2.看OS网课</p>
+]]></content>
+      <tags>
+        <tag>day-target</tag>
+      </tags>
   </entry>
   <entry>
     <title>20231129</title>
@@ -415,6 +403,11 @@
       </tags>
   </entry>
   <entry>
+    <title>test</title>
+    <url>/post/d87f7e0c.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>三秋-第三周作业</title>
     <url>/post/e67da7ca.html</url>
     <content><![CDATA[<h3 id="本周课程作业"><a href="#本周课程作业" class="headerlink" title="本周课程作业"></a>本周课程作业</h3><ul>
@@ -494,9 +487,23 @@
       </tags>
   </entry>
   <entry>
-    <title>test</title>
-    <url>/post/d87f7e0c.html</url>
-    <content><![CDATA[]]></content>
+    <title>国庆作业</title>
+    <url>/post/f6b5f8b6.html</url>
+    <content><![CDATA[<blockquote>
+<p>国庆作业</p>
+</blockquote>
+<ul>
+<li>OS lab1   ()</li>
+<li>数理逻辑与图论（第四周作业）(√) </li>
+<li>算法分析与设计（第三次作业OJ）() 10.6</li>
+<li>编译原理（第三次作业）() 10.8</li>
+<li>计算机网络（第二次作业）(√) 10.11</li>
+<li>数字逻辑电路(第二章作业)(√) 10.10</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>vocation-target</tag>
+      </tags>
   </entry>
   <entry>
     <title>华科王者赛</title>
@@ -574,25 +581,6 @@
       </tags>
   </entry>
   <entry>
-    <title>国庆作业</title>
-    <url>/post/f6b5f8b6.html</url>
-    <content><![CDATA[<blockquote>
-<p>国庆作业</p>
-</blockquote>
-<ul>
-<li>OS lab1   ()</li>
-<li>数理逻辑与图论（第四周作业）(√) </li>
-<li>算法分析与设计（第三次作业OJ）() 10.6</li>
-<li>编译原理（第三次作业）() 10.8</li>
-<li>计算机网络（第二次作业）(√) 10.11</li>
-<li>数字逻辑电路(第二章作业)(√) 10.10</li>
-</ul>
-]]></content>
-      <tags>
-        <tag>vocation-target</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>大三上学期规划</title>
     <url>/post/19f0ff89.html</url>
     <content><![CDATA[<blockquote>
@@ -659,6 +647,18 @@
 ]]></content>
       <tags>
         <tag>资源</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>20230927-target</title>
+    <url>/post/2bc69d0b.html</url>
+    <content><![CDATA[<blockquote>
+<p>任务</p>
+</blockquote>
+<p>1.完成数电作业（√）<br>2.看看操作系统的实验（）<br>3.完成数据库作业（）</p>
+]]></content>
+      <tags>
+        <tag>day-target</tag>
       </tags>
   </entry>
 </search>
