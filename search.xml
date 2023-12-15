@@ -36,33 +36,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Typora</title>
-    <url>/post/dd170fc7.html</url>
-    <content><![CDATA[<blockquote>
-<p>今天的进步之处</p>
-</blockquote>
-<ol>
-<li>七点半起床</li>
-<li>把下午的物联网与安全选修课退课了</li>
-<li>改进next主题</li>
-</ol>
-<blockquote>
-<p>待继续解决的问题</p>
-</blockquote>
-<ul>
-<li>博客评论系统 (已解决)</li>
-<li>机器学习</li>
-<li>早点起床</li>
-</ul>
-]]></content>
-      <categories>
-        <category>-未来规划</category>
-      </categories>
-      <tags>
-        <tag>-博客 -每日闲谈</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>20230912</title>
     <url>/post/70813a47.html</url>
     <content><![CDATA[<h1 id="真香"><a href="#真香" class="headerlink" title="真香"></a>真香</h1><blockquote>
@@ -151,6 +124,33 @@
 ]]></content>
       <tags>
         <tag>day-target</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Typora</title>
+    <url>/post/dd170fc7.html</url>
+    <content><![CDATA[<blockquote>
+<p>今天的进步之处</p>
+</blockquote>
+<ol>
+<li>七点半起床</li>
+<li>把下午的物联网与安全选修课退课了</li>
+<li>改进next主题</li>
+</ol>
+<blockquote>
+<p>待继续解决的问题</p>
+</blockquote>
+<ul>
+<li>博客评论系统 (已解决)</li>
+<li>机器学习</li>
+<li>早点起床</li>
+</ul>
+]]></content>
+      <categories>
+        <category>-未来规划</category>
+      </categories>
+      <tags>
+        <tag>-博客 -每日闲谈</tag>
       </tags>
   </entry>
   <entry>
@@ -301,11 +301,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>test</title>
-    <url>/post/d87f7e0c.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>Typora</title>
     <url>/post/dd170fc7.html</url>
     <content><![CDATA[<blockquote>
@@ -438,6 +433,47 @@
       </tags>
   </entry>
   <entry>
+    <title>三秋-第三周作业</title>
+    <url>/post/e67da7ca.html</url>
+    <content><![CDATA[<h3 id="本周课程作业"><a href="#本周课程作业" class="headerlink" title="本周课程作业"></a>本周课程作业</h3><ul>
+<li>OS  （homework3）(√)</li>
+<li>OS lab1   (√)</li>
+<li>数据库基础 (第一章作业)(√)</li>
+<li>数理逻辑与图论（作业）(√)</li>
+<li>算法分析与设计（第一次作业）(√)</li>
+<li>编译原理（作业）(本周无作业)</li>
+<li>计算机网络（作业）(本周无作业)</li>
+<li>数字逻辑电路(√)</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>week-target</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/post/d87f7e0c.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>三秋—第四周作业</title>
+    <url>/post/38c0d0c9.html</url>
+    <content><![CDATA[<ul>
+<li>OS  （homework3）(√)</li>
+<li>OS lab1   (√)</li>
+<li>数据库基础 (第一章作业)(√)</li>
+<li>数理逻辑与图论（作业）(无)</li>
+<li>算法分析与设计（第三次作业）(√)</li>
+<li>编译原理（作业）(√)</li>
+<li>计算机网络（第二次作业）(√)</li>
+<li>数字逻辑电路(√)</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>week-target</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>三秋-第二周作业</title>
     <url>/post/8ecb3b1c.html</url>
     <content><![CDATA[<h3 id="本周课程作业"><a href="#本周课程作业" class="headerlink" title="本周课程作业"></a>本周课程作业</h3><ul>
@@ -475,42 +511,6 @@
 <blockquote>
 <p>慕课:  新青年-习党史</p>
 </blockquote>
-]]></content>
-      <tags>
-        <tag>week-target</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>三秋—第四周作业</title>
-    <url>/post/38c0d0c9.html</url>
-    <content><![CDATA[<ul>
-<li>OS  （homework3）(√)</li>
-<li>OS lab1   (√)</li>
-<li>数据库基础 (第一章作业)(√)</li>
-<li>数理逻辑与图论（作业）(无)</li>
-<li>算法分析与设计（第三次作业）(√)</li>
-<li>编译原理（作业）(√)</li>
-<li>计算机网络（第二次作业）(√)</li>
-<li>数字逻辑电路(√)</li>
-</ul>
-]]></content>
-      <tags>
-        <tag>week-target</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>三秋-第三周作业</title>
-    <url>/post/e67da7ca.html</url>
-    <content><![CDATA[<h3 id="本周课程作业"><a href="#本周课程作业" class="headerlink" title="本周课程作业"></a>本周课程作业</h3><ul>
-<li>OS  （homework3）(√)</li>
-<li>OS lab1   (√)</li>
-<li>数据库基础 (第一章作业)(√)</li>
-<li>数理逻辑与图论（作业）(√)</li>
-<li>算法分析与设计（第一次作业）(√)</li>
-<li>编译原理（作业）(本周无作业)</li>
-<li>计算机网络（作业）(本周无作业)</li>
-<li>数字逻辑电路(√)</li>
-</ul>
 ]]></content>
       <tags>
         <tag>week-target</tag>
@@ -611,17 +611,6 @@
       </tags>
   </entry>
   <entry>
-    <title>资源库</title>
-    <url>/post/7a87be76.html</url>
-    <content><![CDATA[<blockquote>
-<p>用来放一些资源</p>
-</blockquote>
-]]></content>
-      <tags>
-        <tag>资源</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>大三上学期规划</title>
     <url>/post/19f0ff89.html</url>
     <content><![CDATA[<blockquote>
@@ -677,6 +666,17 @@
 ]]></content>
       <tags>
         <tag>future-target</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>资源库</title>
+    <url>/post/7a87be76.html</url>
+    <content><![CDATA[<blockquote>
+<p>用来放一些资源</p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>资源</tag>
       </tags>
   </entry>
 </search>
