@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>每日大赛</title>
+  <title>emptymind</title>
   
   <subtitle>百废俱兴ing</subtitle>
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-12-15T08:04:54.514Z</updated>
+  <updated>2024-02-27T04:05:53.788Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,50 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>大三下规划</title>
+    <link href="http://example.com/post/957b57ad.html"/>
+    <id>http://example.com/post/957b57ad.html</id>
+    <published>2024-02-25T14:05:12.000Z</published>
+    <updated>2024-02-27T04:05:53.788Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;随缘&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;CET-6&quot;&gt;&lt;a href=&quot;#CET-6&quot; class=&quot;headerlink&quot; title=&quot;CET-6&quot;&gt;&lt;/a&gt;CET-6&lt;/h1&gt;&lt;p&gt;报名六月份的考试&lt;/p&gt;
+&lt;h1 id=&quot;</summary>
+      
+    
+    
+    
+    
+    <category term="future-target" scheme="http://example.com/tags/future-target/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>怎么办？</title>
+    <link href="http://example.com/post/2cf499dd.html"/>
+    <id>http://example.com/post/2cf499dd.html</id>
+    <published>2023-12-20T08:18:40.000Z</published>
+    <updated>2023-12-20T09:03:51.160Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;现在是12月20号下午四点多，这个学期马上就要结束了，现在正在图书馆想要安静地独处一会，刚刚看了眼群，发现下午的计网又点名了，两次点名都没去。不想去，实在是不想上，感觉和之前一直不想上数据结构及其算法一样，很不喜欢教室的氛围，课下也没学习的动力，尽管老师讲得确实不错。好了，</summary>
+      
+    
+    
+    
+    
+    <category term="Thinker" scheme="http://example.com/tags/Thinker/"/>
+    
+  </entry>
   
   <entry>
     <title>2023_1215_freetalk</title>
@@ -428,54 +472,6 @@
     
     
     <category term="day-target" scheme="http://example.com/tags/day-target/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20230925-认知塑造</title>
-    <link href="http://example.com/post/444119fe.html"/>
-    <id>http://example.com/post/444119fe.html</id>
-    <published>2023-09-25T11:02:59.000Z</published>
-    <updated>2023-10-11T08:01:49.710Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;学习&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;1.网安学出来能干什么？&lt;/p&gt;
-&lt;p&gt;答：起码应该比辍学带来的好处多一些。&lt;/p&gt;
-&lt;p&gt;2.上课学到的东西多吗？实用性高吗？要每节课都去吗？&lt;/p&gt;
-&lt;p&gt;答：多少是相对的，实用性有谁说得准？如果</summary>
-      
-    
-    
-    
-    
-    <category term="Thinker" scheme="http://example.com/tags/Thinker/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>三秋-第二周作业</title>
-    <link href="http://example.com/post/8ecb3b1c.html"/>
-    <id>http://example.com/post/8ecb3b1c.html</id>
-    <published>2023-09-16T11:11:26.000Z</published>
-    <updated>2023-10-11T08:03:59.798Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;本周课程作业&quot;&gt;&lt;a href=&quot;#本周课程作业&quot; class=&quot;headerlink&quot; title=&quot;本周课程作业&quot;&gt;&lt;/a&gt;本周课程作业&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;OS  （homework1 homework2）(√)&lt;/li&gt;
-&lt;li&gt;数据库基础 (第一章</summary>
-      
-    
-    
-    
-    
-    <category term="week-target" scheme="http://example.com/tags/week-target/"/>
     
   </entry>
   
