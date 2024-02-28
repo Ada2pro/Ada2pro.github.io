@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-02-27T11:55:29.959Z</updated>
+  <updated>2024-02-28T12:29:42.419Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,32 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>前端学习进展</title>
-    <link href="http://example.com/post/913d7073.html"/>
-    <id>http://example.com/post/913d7073.html</id>
-    <published>2024-02-27T11:45:14.000Z</published>
-    <updated>2024-02-27T11:55:29.959Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/zh-CN/docs/Learn#%E9%9B%B6%E5%9F%BA%E7%A1%80%E7%9A%84%E5%88%9D%E5%AD%A6%E8%80%85&quot;&gt;零基础的初学者&lt;/a&gt;&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    
-    <category term="技能栈" scheme="http://example.com/tags/%E6%8A%80%E8%83%BD%E6%A0%88/"/>
-    
-  </entry>
-  
-  <entry>
     <title>大三下规划</title>
     <link href="http://example.com/post/957b57ad.html"/>
     <id>http://example.com/post/957b57ad.html</id>
     <published>2024-02-25T14:05:12.000Z</published>
-    <updated>2024-02-27T04:07:45.513Z</updated>
+    <updated>2024-02-28T12:29:42.419Z</updated>
     
     
       
@@ -470,6 +449,29 @@
     
     
     <category term="week-target" scheme="http://example.com/tags/week-target/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2023_09_25_target</title>
+    <link href="http://example.com/post/a89e2061.html"/>
+    <id>http://example.com/post/a89e2061.html</id>
+    <published>2023-09-25T11:24:49.000Z</published>
+    <updated>2023-10-11T08:02:39.837Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;今日任务&quot;&gt;&lt;a href=&quot;#今日任务&quot; class=&quot;headerlink&quot; title=&quot;今日任务&quot;&gt;&lt;/a&gt;今日任务&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;这是第一天尝试给自己安排每日任务，加油，特种兵&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=</summary>
+      
+    
+    
+    
+    
+    <category term="day-target" scheme="http://example.com/tags/day-target/"/>
     
   </entry>
   
