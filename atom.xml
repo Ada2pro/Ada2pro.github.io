@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-02-29T04:10:22.111Z</updated>
+  <updated>2024-03-05T09:19:04.050Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>前端学习进度</title>
+    <link href="http://example.com/post/cd19c8ae.html"/>
+    <id>http://example.com/post/cd19c8ae.html</id>
+    <published>2024-03-05T09:16:52.000Z</published>
+    <updated>2024-03-05T09:19:04.050Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;2024-3-5&quot;&gt;&lt;a href=&quot;#2024-3-5&quot; class=&quot;headerlink&quot; title=&quot;2024.3.5&quot;&gt;&lt;/a&gt;2024.3.5&lt;/h1&gt;&lt;p&gt;今天学习了：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;CSS类型，类,ID,属性，伪类，伪元素选择器&lt;/l</summary>
+      
+    
+    
+    
+    
+    <category term="skills" scheme="http://example.com/tags/skills/"/>
+    
+  </entry>
   
   <entry>
     <title>大三下规划</title>
@@ -449,29 +471,6 @@
     
     
     <category term="week-target" scheme="http://example.com/tags/week-target/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2023_09_25_target</title>
-    <link href="http://example.com/post/a89e2061.html"/>
-    <id>http://example.com/post/a89e2061.html</id>
-    <published>2023-09-25T11:24:49.000Z</published>
-    <updated>2023-10-11T08:02:39.837Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;今日任务&quot;&gt;&lt;a href=&quot;#今日任务&quot; class=&quot;headerlink&quot; title=&quot;今日任务&quot;&gt;&lt;/a&gt;今日任务&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;这是第一天尝试给自己安排每日任务，加油，特种兵&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=</summary>
-      
-    
-    
-    
-    
-    <category term="day-target" scheme="http://example.com/tags/day-target/"/>
     
   </entry>
   
