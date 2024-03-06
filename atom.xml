@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-03-05T09:19:04.050Z</updated>
+  <updated>2024-03-06T14:58:42.502Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>我的精神内核</title>
+    <link href="http://example.com/post/64d65b09.html"/>
+    <id>http://example.com/post/64d65b09.html</id>
+    <published>2024-03-06T02:02:12.000Z</published>
+    <updated>2024-03-06T14:58:42.502Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;为什么要写&quot;&gt;&lt;a href=&quot;#为什么要写&quot; class=&quot;headerlink&quot; title=&quot;为什么要写&quot;&gt;&lt;/a&gt;为什么要写&lt;/h1&gt;&lt;p&gt;系统软件会有自己的OS内核，我们人同样有着自己的精神内核，它会决定我们会在面对各种场景时会做出什么反应。&lt;/p&gt;
+&lt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>前端学习进度</title>
     <link href="http://example.com/post/cd19c8ae.html"/>
     <id>http://example.com/post/cd19c8ae.html</id>
     <published>2024-03-05T09:16:52.000Z</published>
-    <updated>2024-03-05T09:19:04.050Z</updated>
+    <updated>2024-03-05T09:19:11.292Z</updated>
     
     
       
@@ -43,7 +62,7 @@
     <link href="http://example.com/post/957b57ad.html"/>
     <id>http://example.com/post/957b57ad.html</id>
     <published>2024-02-25T14:05:12.000Z</published>
-    <updated>2024-02-29T04:10:22.111Z</updated>
+    <updated>2024-03-05T15:16:22.141Z</updated>
     
     
       
@@ -448,29 +467,6 @@
     
     
     <category term="day-target" scheme="http://example.com/tags/day-target/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>三秋-第三周作业</title>
-    <link href="http://example.com/post/e67da7ca.html"/>
-    <id>http://example.com/post/e67da7ca.html</id>
-    <published>2023-09-25T11:37:28.000Z</published>
-    <updated>2023-10-11T08:07:05.031Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;本周课程作业&quot;&gt;&lt;a href=&quot;#本周课程作业&quot; class=&quot;headerlink&quot; title=&quot;本周课程作业&quot;&gt;&lt;/a&gt;本周课程作业&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;OS  （homework3）(√)&lt;/li&gt;
-&lt;li&gt;OS lab1   (√)&lt;/li&gt;
-&lt;</summary>
-      
-    
-    
-    
-    
-    <category term="week-target" scheme="http://example.com/tags/week-target/"/>
     
   </entry>
   
