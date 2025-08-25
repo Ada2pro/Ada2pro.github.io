@@ -17,7 +17,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"ada2pro.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"active":"giscus","display":"post","giscus":{"repo":"Ada2pro/Ada2pro.github.io","repoId":"R_kgDOKOEweg","category":"Announcements","categoryId":"DIC_kwDOKOEwes4CukYc","mapping":"pathname","reactionsEnabled":1,"emitMetadata":0,"inputPosition":"top","theme":"noborder_light","lang":"zh-CN","loading":"lazy"}},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"ada2pro.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
   <meta name="description" content="record my life, share my thoughts">
@@ -173,7 +173,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2025-08-25 20:44:06 / 修改时间：21:01:45" itemprop="dateCreated datePublished" datetime="2025-08-25T20:44:06+08:00">2025-08-25</time>
+              <time title="创建时间：2025-08-25 20:44:06 / 修改时间：21:22:30" itemprop="dateCreated datePublished" datetime="2025-08-25T20:44:06+08:00">2025-08-25</time>
             </span>
 
           
@@ -308,10 +308,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2025-08-16 01:48:10 / 修改时间：02:52:23" itemprop="dateCreated datePublished" datetime="2025-08-16T01:48:10+08:00">2025-08-16</time>
+              <time title="创建时间：2025-08-16 01:48:10" itemprop="dateCreated datePublished" datetime="2025-08-16T01:48:10+08:00">2025-08-16</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2025-08-25 21:22:38" itemprop="dateModified" datetime="2025-08-25T21:22:38+08:00">2025-08-25</time>
+              </span>
 
           
 
@@ -622,6 +628,25 @@
           </div>
           
 
+<% if (theme.gitalk.enable) { %>
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<div id="gitalk-container"></div>
+<script>
+  const gitalk = new Gitalk({
+    clientID: '<%= theme.gitalk.clientID %>',
+    clientSecret: '<%= theme.gitalk.clientSecret %>',
+    repo: '<%= theme.gitalk.repo %>',
+    owner: '<%= theme.gitalk.owner %>',
+    admin: <%= JSON.stringify(theme.gitalk.admin) %>,
+    id: location.pathname,
+    distractionFreeMode: <%= theme.gitalk.distractionFreeMode %>
+  });
+  gitalk.render('gitalk-container');
+</script>
+<% } %>
+
+
 <script>
   window.addEventListener('tabs:register', () => {
     let { activeClass } = CONFIG.comments;
@@ -768,5 +793,5 @@
 
   
 
-</body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
 </html>
