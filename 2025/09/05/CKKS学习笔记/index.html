@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 7.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"ada2pro.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":true,"nav":{"giscus":{"text":"GitHub 评论","order":-1}},"activeClass":"gitalk"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="我最近需要学习CKKS，我之前看过openmined的教程，当时看懂了，但过去了一个月，我就几乎忘得差不多了，我认为必须要自己手动进行代码实现才能加深理解，同时，师兄也推荐我去阅读CKKS的原论文   CKKS 同态加密学习路径（三层次法） 学习 CKKS 不必一次吃透。结合“框架 → 实践 → 理论”三步走，能有效打通从理解到实现的闭环。  一、建立高层框架（先见森林）在读论文前，先掌握整体脉">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CKKS学习笔记">
+<meta property="og:url" content="https://ada2pro.github.io/2025/09/05/CKKS%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.html">
+<meta property="og:site_name" content="Ada2pro&#39;s blog">
+<meta property="og:description" content="我最近需要学习CKKS，我之前看过openmined的教程，当时看懂了，但过去了一个月，我就几乎忘得差不多了，我认为必须要自己手动进行代码实现才能加深理解，同时，师兄也推荐我去阅读CKKS的原论文   CKKS 同态加密学习路径（三层次法） 学习 CKKS 不必一次吃透。结合“框架 → 实践 → 理论”三步走，能有效打通从理解到实现的闭环。  一、建立高层框架（先见森林）在读论文前，先掌握整体脉">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2025-09-05T09:04:29.000Z">
+<meta property="article:modified_time" content="2025-09-05T09:10:17.287Z">
+<meta property="article:author" content="Xzywoo">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://ada2pro.github.io/2025/09/05/CKKS%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>CKKS学习笔记 | Ada2pro's blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Ada2pro's blog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">Waiting for love</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://ada2pro.github.io/2025/09/05/CKKS%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Xzywoo">
+      <meta itemprop="description" content="record my life, share my thoughts">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ada2pro's blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          CKKS学习笔记
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2025-09-05 17:04:29 / 修改时间：17:10:17" itemprop="dateCreated datePublished" datetime="2025-09-05T17:04:29+08:00">2025-09-05</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <blockquote>
+<p>我最近需要学习CKKS，我之前看过openmined的教程，当时看懂了，但过去了一个月，我就几乎忘得差不多了，我认为必须要自己手动进行代码实现才能加深理解，同时，师兄也推荐我去阅读CKKS的原论文</p>
+</blockquote>
+<hr>
+<h1 id="CKKS-同态加密学习路径（三层次法）"><a href="#CKKS-同态加密学习路径（三层次法）" class="headerlink" title="CKKS 同态加密学习路径（三层次法）"></a>CKKS 同态加密学习路径（三层次法）</h1><blockquote>
+<p>学习 CKKS 不必一次吃透。结合“框架 → 实践 → 理论”三步走，能有效打通从理解到实现的闭环。</p>
+</blockquote>
+<h2 id="一、建立高层框架（先见森林）"><a href="#一、建立高层框架（先见森林）" class="headerlink" title="一、建立高层框架（先见森林）"></a>一、建立高层框架（先见森林）</h2><p>在读论文前，先掌握整体脉络，避免迷失细节：</p>
+<ul>
+<li><strong>核心目标</strong>：支持浮点&#x2F;实数的<strong>近似同态加密</strong>（允许一定误差）</li>
+<li><strong>关键思想</strong>：<ul>
+<li>复数向量编码数据</li>
+<li>多项式上进行同态加&#x2F;乘</li>
+<li>通过 <strong>rescaling</strong> 控制噪声与精度平衡</li>
+</ul>
+</li>
+<li><strong>主要流程</strong>：<br><code>编码 → 加密 → 同态运算 → 解密 → 解码</code></li>
+<li><strong>核心挑战</strong>：<ul>
+<li>噪声增长 vs. 计算精度</li>
+<li>乘法次数受限 → 需 rescaling + 模数链（modulus chain）</li>
+</ul>
+</li>
+</ul>
+<p>📌 <strong>推荐材料</strong>：OpenMined 教程、简明综述或课程笔记，快速唤醒记忆。</p>
+<hr>
+<h2 id="二、动手实验（代码驱动理解）"><a href="#二、动手实验（代码驱动理解）" class="headerlink" title="二、动手实验（代码驱动理解）"></a>二、动手实验（代码驱动理解）</h2><p>用现成库上手，让抽象概念落地：</p>
+<ul>
+<li>✅ 使用库：<a target="_blank" rel="noopener" href="https://github.com/microsoft/SEAL">SEAL</a> &#x2F; <a target="_blank" rel="noopener" href="https://github.com/tuneinsight/lattigo">Lattigo</a> &#x2F; <a target="_blank" rel="noopener" href="https://github.com/OpenMined/TenSEAL">TenSEAL</a></li>
+<li>🔬 实验内容：<ul>
+<li>跑通 CKKS 加法、乘法示例</li>
+<li>观察：加法几乎无精度损失，乘法后需 rescale</li>
+<li>手动封装完整流程：<code>encode → encrypt → eval → decrypt → decode</code></li>
+<li>记录误差来源（如 rescale 引入的舍入）</li>
+</ul>
+</li>
+<li>🧩 进阶：<ul>
+<li>复现 OpenMined 示例，边跑边注释</li>
+<li>提问并尝试回答：<em>“为什么这里要 rescale？” “乘法为何有限？”</em></li>
+</ul>
+</li>
+</ul>
+<p>💡 <strong>好处</strong>：再看论文时，公式&#x3D;代码中的某一步，理解更直观。</p>
+<hr>
+<h2 id="三、精读原论文（带问题深入）"><a href="#三、精读原论文（带问题深入）" class="headerlink" title="三、精读原论文（带问题深入）"></a>三、精读原论文（带问题深入）</h2><p>论文：<em>Cheon et al., Homomorphic Encryption for Arithmetic of Approximate Numbers (2017)</em></p>
+<p>分模块阅读，优先关注与代码对应的机制：</p>
+<table>
+<thead>
+<tr>
+<th>模块</th>
+<th>学习重点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Introduction</strong></td>
+<td>对比 BGV&#x2F;BFV，理解 CKKS 为何适合近似计算</td>
+</tr>
+<tr>
+<td><strong>Encoding&#x2F;Decoding</strong></td>
+<td>复数向量如何编码实数向量？精度损失来源？</td>
+</tr>
+<tr>
+<td><strong>Homomorphic Ops</strong></td>
+<td>加法、乘法的数学形式，对应代码中的 <code>add</code> 和 <code>mul</code></td>
+</tr>
+<tr>
+<td><strong>Rescaling &amp; Modulus Switching</strong></td>
+<td>核心创新！为何要除 <code>q_i</code>？如何维持规模？</td>
+</tr>
+<tr>
+<td><strong>Security &amp; Params</strong></td>
+<td>安全基于 RLWE；参数选择影响安全与性能</td>
+</tr>
+</tbody></table>
+<p>📘 <strong>阅读技巧</strong>：</p>
+<ul>
+<li>带着实验中的疑问去读（如：“rescale 为什么必须降模？”）</li>
+<li>公式看不懂？先找代码实现，反向理解</li>
+<li>安全性证明等硬核部分可暂时跳过</li>
+</ul>
+<hr>
+<h2 id="四、巩固与提升"><a href="#四、巩固与提升" class="headerlink" title="四、巩固与提升"></a>四、巩固与提升</h2><ul>
+<li>📝 <strong>写读书笔记</strong>：每部分用自己的话总结成“小白也能懂”的解释</li>
+<li>🔍 <strong>多源对照</strong>：参考 Lattigo 文档、SEAL 示例等工程化资料</li>
+<li>💬 <strong>自测能力</strong>：如果让我实现 CKKS，我能写哪部分？哪些依赖库？</li>
+</ul>
+<hr>
+<h2 id="✅-可选：三周学习计划（实践导向）"><a href="#✅-可选：三周学习计划（实践导向）" class="headerlink" title="✅ 可选：三周学习计划（实践导向）"></a>✅ 可选：三周学习计划（实践导向）</h2><table>
+<thead>
+<tr>
+<th>周数</th>
+<th>目标</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>第1周</td>
+<td>熟悉 TenSEAL&#x2F;SEAL，跑通编码、加&#x2F;乘、rescaling 示例</td>
+</tr>
+<tr>
+<td>第2周</td>
+<td>对照论文，精读 Encoding、HomOp、Rescaling 部分，标注代码对应点</td>
+</tr>
+<tr>
+<td>第3周</td>
+<td>实现一个“极简版 CKKS”原型（仅支持编码+加密+加法）或写详细流程图解</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>这样三周下来，你不仅能读懂论文，还能讲清楚、写出来。</p>
+</blockquote>
+<hr>
+<p>📌 <strong>结语</strong>：<br>CKKS 的难点不在单一知识点，而在<strong>数学、安全、工程的交叉理解</strong>。<br>坚持“<strong>先会用，再懂原理</strong>”，你会越学越通透。</p>
+<hr>
+<p>好👌 我给你设计一个 <strong>3 周 CKKS 学习计划</strong>，目标是：</p>
+<ul>
+<li><strong>不只是看懂</strong>，还能<strong>动手实现</strong>，把论文和代码结合起来。</li>
+<li>节奏循序渐进，避免“一次性啃死”。</li>
+</ul>
+<hr>
+<h1 id="📅-三周-CKKS-学习计划"><a href="#📅-三周-CKKS-学习计划" class="headerlink" title="📅 三周 CKKS 学习计划"></a>📅 三周 CKKS 学习计划</h1><h2 id="第-1-周：重建框架-动手实验"><a href="#第-1-周：重建框架-动手实验" class="headerlink" title="第 1 周：重建框架 &amp;动手实验"></a><strong>第 1 周：重建框架 &amp;动手实验</strong></h2><p><strong>目标</strong>：重新建立 CKKS 的整体理解，用代码跑通基本流程。</p>
+<ul>
+<li><p><strong>Day 1-2</strong></p>
+<ul>
+<li><p>回顾 openmined 的 CKKS 教程，写总结：</p>
+<ul>
+<li>CKKS 解决的问题</li>
+<li>编码&#x2F;加密&#x2F;解密流程</li>
+<li>rescale 在哪里用到</li>
+</ul>
+</li>
+<li><p>输出 1 页笔记（可以画流程图）。</p>
+</li>
+</ul>
+</li>
+<li><p><strong>Day 3-4</strong></p>
+<ul>
+<li><p>用 <strong>TenSEAL 或 SEAL</strong> 跑几个 demo：</p>
+<ul>
+<li>加法、乘法、rescale</li>
+<li>对比误差来源</li>
+</ul>
+</li>
+<li><p>给每段代码加注释，写出你“理解”的解释。</p>
+</li>
+</ul>
+</li>
+<li><p><strong>Day 5-6</strong></p>
+<ul>
+<li>阅读 1 篇 CKKS 入门综述（比原论文轻量的资料）。</li>
+<li>总结：CKKS 相比 BGV&#x2F;BFV 的不同点。</li>
+</ul>
+</li>
+<li><p><strong>Day 7</strong></p>
+<ul>
+<li>复盘一周：写一个“CKKS 小白笔记”，不超过两页。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="第-2-周：论文精读（带问题读）"><a href="#第-2-周：论文精读（带问题读）" class="headerlink" title="第 2 周：论文精读（带问题读）"></a><strong>第 2 周：论文精读（带问题读）</strong></h2><p><strong>目标</strong>：啃原论文的核心部分，把公式和代码对照起来。</p>
+<ul>
+<li><p><strong>Day 1-2</strong></p>
+<ul>
+<li>精读原论文 Introduction + Background</li>
+<li>写出论文想解决的痛点 &amp; 为什么需要“近似”同态加密。</li>
+</ul>
+</li>
+<li><p><strong>Day 3-4</strong></p>
+<ul>
+<li>精读 <strong>Encoding &amp; Decoding</strong> 部分</li>
+<li>在代码里跑 encode&#x2F;decode，观察误差。</li>
+<li>笔记：如何把实数&#x2F;复数映射到多项式？</li>
+</ul>
+</li>
+<li><p><strong>Day 5-6</strong></p>
+<ul>
+<li>精读 <strong>Homomorphic Addition &amp; Multiplication</strong></li>
+<li>跑对应代码，验证 rescale 的作用。</li>
+</ul>
+</li>
+<li><p><strong>Day 7</strong></p>
+<ul>
+<li>输出一份“代码-公式对照表”。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="第-3-周：实现-深化理解"><a href="#第-3-周：实现-深化理解" class="headerlink" title="第 3 周：实现 &amp;深化理解"></a><strong>第 3 周：实现 &amp;深化理解</strong></h2><p><strong>目标</strong>：动手写简化实现，把 CKKS 的机制讲出来。</p>
+<ul>
+<li><p><strong>Day 1-2</strong></p>
+<ul>
+<li><p>尝试实现“玩具版 CKKS”：</p>
+<ul>
+<li>只做 encode → encrypt → decrypt → decode（用 Python&#x2F;Numpy）</li>
+<li>暂时不管安全性。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Day 3-4</strong></p>
+<ul>
+<li>加入加法、乘法运算，手动实现 rescale（哪怕是简化版）。</li>
+</ul>
+</li>
+<li><p><strong>Day 5</strong></p>
+<ul>
+<li>对照论文 Security 部分，理解为什么要选择那么大的参数。</li>
+<li>可以查一下 Lattigo&#x2F;SEAL 的参数推荐。</li>
+</ul>
+</li>
+<li><p><strong>Day 6</strong></p>
+<ul>
+<li><p>写一篇“CKKS 学习笔记”：</p>
+<ul>
+<li>论文精华</li>
+<li>代码实验总结</li>
+<li>哪些地方还没弄懂（留下问题）。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Day 7</strong></p>
+<ul>
+<li>分享&#x2F;讲解（假设要给别人讲 CKKS，你会怎么讲？）</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p>✨ 最终成果：</p>
+<ul>
+<li><p>3 周后你会有：</p>
+<ul>
+<li>一份完整的 CKKS 学习笔记</li>
+<li>一份“代码-公式对照表”</li>
+<li>一个玩具版 CKKS 小实现</li>
+<li>对原论文核心思路的理解</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p>要不要我顺便帮你整理一些 <strong>论文 + 教程 + 库文档</strong> 的推荐阅读清单？这样你就不用自己到处找资料了。</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2025/08/25/hexo-next%E5%8D%9A%E5%AE%A2%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E6%90%AD%E5%BB%BA/" rel="prev" title="hexo-next博客评论系统搭建">
+      <i class="fa fa-chevron-left"></i> hexo-next博客评论系统搭建
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2025/09/17/plan-250917-250930/" rel="next" title="plan_250917~250930">
+      plan_250917~250930 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+    <div class="comments" id="gitalk-container"></div>
+
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#CKKS-%E5%90%8C%E6%80%81%E5%8A%A0%E5%AF%86%E5%AD%A6%E4%B9%A0%E8%B7%AF%E5%BE%84%EF%BC%88%E4%B8%89%E5%B1%82%E6%AC%A1%E6%B3%95%EF%BC%89"><span class="nav-number">1.</span> <span class="nav-text">CKKS 同态加密学习路径（三层次法）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E5%BB%BA%E7%AB%8B%E9%AB%98%E5%B1%82%E6%A1%86%E6%9E%B6%EF%BC%88%E5%85%88%E8%A7%81%E6%A3%AE%E6%9E%97%EF%BC%89"><span class="nav-number">1.1.</span> <span class="nav-text">一、建立高层框架（先见森林）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E5%8A%A8%E6%89%8B%E5%AE%9E%E9%AA%8C%EF%BC%88%E4%BB%A3%E7%A0%81%E9%A9%B1%E5%8A%A8%E7%90%86%E8%A7%A3%EF%BC%89"><span class="nav-number">1.2.</span> <span class="nav-text">二、动手实验（代码驱动理解）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E7%B2%BE%E8%AF%BB%E5%8E%9F%E8%AE%BA%E6%96%87%EF%BC%88%E5%B8%A6%E9%97%AE%E9%A2%98%E6%B7%B1%E5%85%A5%EF%BC%89"><span class="nav-number">1.3.</span> <span class="nav-text">三、精读原论文（带问题深入）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9B%E3%80%81%E5%B7%A9%E5%9B%BA%E4%B8%8E%E6%8F%90%E5%8D%87"><span class="nav-number">1.4.</span> <span class="nav-text">四、巩固与提升</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E2%9C%85-%E5%8F%AF%E9%80%89%EF%BC%9A%E4%B8%89%E5%91%A8%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92%EF%BC%88%E5%AE%9E%E8%B7%B5%E5%AF%BC%E5%90%91%EF%BC%89"><span class="nav-number">1.5.</span> <span class="nav-text">✅ 可选：三周学习计划（实践导向）</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%F0%9F%93%85-%E4%B8%89%E5%91%A8-CKKS-%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92"><span class="nav-number">2.</span> <span class="nav-text">📅 三周 CKKS 学习计划</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-1-%E5%91%A8%EF%BC%9A%E9%87%8D%E5%BB%BA%E6%A1%86%E6%9E%B6-%E5%8A%A8%E6%89%8B%E5%AE%9E%E9%AA%8C"><span class="nav-number">2.1.</span> <span class="nav-text">第 1 周：重建框架 &amp;动手实验</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-2-%E5%91%A8%EF%BC%9A%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB%EF%BC%88%E5%B8%A6%E9%97%AE%E9%A2%98%E8%AF%BB%EF%BC%89"><span class="nav-number">2.2.</span> <span class="nav-text">第 2 周：论文精读（带问题读）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC-3-%E5%91%A8%EF%BC%9A%E5%AE%9E%E7%8E%B0-%E6%B7%B1%E5%8C%96%E7%90%86%E8%A7%A3"><span class="nav-number">2.3.</span> <span class="nav-text">第 3 周：实现 &amp;深化理解</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Xzywoo</p>
+  <div class="site-description" itemprop="description">record my life, share my thoughts</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">7</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2025</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Xzywoo</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : 'Ov23liC7fMsh5qIR96RV',
+      clientSecret: '2a409c0c26aca55aec7114e691834c55e7eb8126',
+      repo        : 'Hexo_comment',
+      owner       : 'Ada2pro',
+      admin       : ['Ada2pro'],
+      id          : 'cde51957c8c5dd78d42df434760ec433',
+        language: 'zh-CN',
+      distractionFreeMode: false
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+});
+</script>
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+</html>
